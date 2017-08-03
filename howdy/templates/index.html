@@ -1,0 +1,355 @@
+<!-- howdy/templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<style>
+body {margin: 0;}
+h1 {
+    margin: 0;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    font-size: 50px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: 580px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+}
+
+.container:hover .overlay {
+    opacity: 0.5;
+}
+
+.text {
+    color: black;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.op {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.op h2 {
+    border: 3px solid lightblue;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    background-color: lightblue;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.op p {
+    margin: 15px;
+    line-height: 1.5;
+    text-indent: 50px;
+    font-size: 23px;
+}
+
+.ll {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+div.gallery {
+    margin: 19px;
+    border: 5px solid grey;
+    border-radius: 7px;
+    float: left;
+    width: 200px;
+    margin-bottom: 31px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.gallery:hover {
+    border: 5px solid lightpink;
+}
+
+div.gallery img {
+    width: 200px;
+    height: 150px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+div.au {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+</style>
+<body>
+
+<h1>Generation Gap</h1>
+<div class="container">
+  <img src="http://fthmb.tqn.com/JV_b4t2LdT3BERNcRRHT1aPhov8=/640x0/filters:no_upscale()/about/GettyImages-176614752-5707e9ba3df78c7d9ea4d840.jpg" class="image">
+    <div class="overlay">
+	<div class="text">
+		Welcome to Generation Gap!
+		<br>
+		This website is for youths seeking out volunteer opportunities to help the elderly.
+         </div>
+    </div>
+</div>
+
+<div class="op">
+<h1>Our Purpose</h1>
+    	<br>
+	    <br>
+   	<h2>What is the purpose of Generation Gap?</h2>
+	<p>The purpose of our website is to help bridge the gap between the elderly and the youth in our community. We find that it is important to help youths find volunteer opportunities that could help them achieve their goals and in addition, we want to encourage the youth to make a connection with the older generations as much as possible.</p>
+   	<br>
+    	<h2>How did our idea come to be?</h2>
+    	<p>As technology continues to develop, human interaction progressively decreases. This especially happens between the elderly and the youth in our community. Believing that it is important for the youth to learn from their elders as well as for youths to unravel a mentor for themselves, we decided to create this website for the young ones and to bridge the gap between themselves and older generations.</p>
+    	<br>
+</div>
+
+<div class="ll">
+<h1>Locations & Links</h1>
+</div>
+
+<br>
+
+<div class="gallery">
+  <a href="/sanfrancisco/">
+    <img src="http://thekiwihaslanded.com/wp-content/uploads/2014/10/SFO.jpg" width="300" height="200">
+  </a>
+  <div class="desc">San Francisco</div>
+</div>
+
+<div class="gallery">
+  <a href="/oakland/">
+    <img src="https://paradigmmalibu.com/wp-content/uploads/2014/11/oakland.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Oakland</div>
+</div>
+
+<div class="gallery">
+  <a href="/sanjose/">
+    <img src="https://farm9.staticflickr.com/8638/16337040158_0870417934_o.jpg" width="300" height="200">
+  </a>
+  <div class="desc">San Jose</div>
+</div>
+
+<div class="gallery">
+  <a href="/richmond/">
+    <img src="http://solarenergy-usa.com/site/gallery/general_pages/body-dealer-richmond.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Richmond</div>
+</div>
+
+<div class="gallery">
+  <a href="/dalycity/">
+    <img src="http://www.dalycity.org/Assets/Departments/Economic+and+Community+Development/planning/images/Planning+Cover+Page+Photo.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Daly City</div>
+</div>
+
+<div class="gallery">
+  <a href="/cupertino/">
+    <img src="https://frieze.com/sites/default/files/Editorial/Apple-Cupertino-Campus-2.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Cupertino</div>
+</div>
+
+<div class="gallery">
+  <a href="/concord/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/TodoSantos.JPG" width="300" height="200">
+  </a>
+  <div class="desc">Concord</div>
+</div>
+
+<div class="gallery">
+  <a href="/walnutcreek/">
+    <img src="http://www.essenceinphotography.com/wp-content/uploads/2012/01/Broadway-Plaza-Fountian-Walnut-Creek-CA.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Walnut Creek</div>
+</div>
+
+<div class="gallery">
+  <a href="/redwoodcity/">
+    <img src="http://www.redwoodcity.org/Home/ShowImage?id=5337&t=635799153368130000" width="300" height="200">
+  </a>
+  <div class="desc">Redwood City</div>
+</div>
+
+<div class="gallery">
+  <a href="/mountainview/">
+    <img src="http://s3.amazonaws.com/medias.photodeck.com/08d2cc04-8729-11e3-a70d-9103fbb28c10/082913-los-angeles-skyline-city-dusk-night-timelapse-proreshq-HD-3_xlarge.jpg" width="300" height="200">
+  </a>
+  <div class="desc">Mountain View</div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div class="au">
+  <h1>About Us</h1>
+</div>
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h2 {
+  font-size: 35px;
+}
+
+table, td, th {
+    border: 1px solid transparent;
+}
+
+table {
+    width: 100%;
+    border-spacing: 25px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: auto;
+  margin: auto;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.container {
+  padding: 0;
+}
+
+.container:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+</style>
+</head>
+<body>
+
+<table>
+
+    <td>
+    <div class="card">
+  <img src="http://www.topvinylfilms.com/images/products/preview/fsg24.jpg" style="width: 300px; height: 300px">
+  <div class="container">
+    <h2>Tracy Tram</h2>
+    <p class="title">Girls Who Code @TwitterBayArea <br> San Francisco, CA</p>
+    <p>Drawing <br> Listening to Music <br> Reading Manga</p>
+   	<p><button>trtram4@gmail.com</button></p>
+  </div>
+</div>
+    </td>
+
+    <td>
+    <div class="card">
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/c9/6e/50/c96e50649819c9210b5f5b04d618f60e.jpg" style="width: 315px; height: 380px">
+    <div class="container">
+    <h2>DragonCode12</h2>
+    <p class="title">Girls Who Code @TwitterBayArea <br> San Francisco, CA</p>
+    <p>Writing / Reading / Watching Anime <br> Dragons
+    </p>
+    </div>
+    </div>
+    </td>
+
+    <td>
+    <div class="card">
+  <img src="https://s-media-cache-ak0.pinimg.com/736x/e6/37/70/e6377085b485ff0eaa86df15a66dd9bc.jpg" style="width: 320px; height: 300px">
+  <div class="container">
+    <h2>Kayla Yasukawa</h2>
+    <p class="title">Girls Who Code @TwitterBayArea <br> San Francisco, CA</p>
+    <p>Basketball & Volleyball <br>Guitar & Piano <br> Traveling / Art
+</p>
+   	<p><button>kaylayasukawa@gmail.com</button></p>
+  </div>
+</div>
+    </td>
+
+</table>
+
+</body>
+</html>
+
+
+</body>
+</html>
